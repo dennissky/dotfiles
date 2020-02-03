@@ -25,6 +25,7 @@ Plug 'brooth/far.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 colorscheme gruvbox
