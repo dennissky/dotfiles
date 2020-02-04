@@ -99,9 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # go proxy
 # 启用 Go Modules 功能
-#export GO111MODULE=on
+export GO111MODULE=auto
 # 配置 GOPROXY 环境变量
 export GOPROXY=https://goproxy.io
-export GOPATH=/Users/dennis/Projects/go
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+export HOMEBREW_NO_AUTO_UPDATE=true
 alias python=/usr/local/bin/python3
