@@ -64,3 +64,11 @@ let g:ctrlp_map = '<leader>p'
 nmap ss <Plug>(easymotion-s2)
 " tagbar
 nnoremap <leader>t :TagbarToggle<CR>
+" vim-go
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+
