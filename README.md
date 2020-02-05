@@ -14,6 +14,7 @@ brew install go \
 vim \
 python \
 nodejs \
+zplug \
 
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags
