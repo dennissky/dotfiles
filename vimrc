@@ -27,6 +27,9 @@ Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
 Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 call plug#end()
