@@ -46,6 +46,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+set backspace=2
+
 " 高亮搜索
 set hlsearch
 " 高亮当前行
