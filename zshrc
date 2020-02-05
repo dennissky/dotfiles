@@ -102,7 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
-#zplug 'plugins/git', from:oh-my-zsh, if:'which git'
+
+[ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -120,5 +121,5 @@ export GO111MODULE=auto
 export GOPROXY=https://goproxy.io
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export HOMEBREW_NO_AUTO_UPDATE=true
-alias python=/usr/local/bin/python3
 export ZPLUG_HOME=/usr/local/opt/zplug
+alias python=/usr/local/bin/python3
