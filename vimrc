@@ -1,5 +1,4 @@
 let mapleader=' '
-inoremap <leader>w <Esc>:w<cr>
 nnoremap <leader>wh <C-w>h
 nnoremap <leader>wj <C-w>j
 nnoremap <leader>wk <C-w>k
