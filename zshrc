@@ -123,3 +123,5 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bott
 export HOMEBREW_NO_AUTO_UPDATE=true
 export ZPLUG_HOME=/usr/local/opt/zplug
 alias python=/usr/local/bin/python3
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
