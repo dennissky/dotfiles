@@ -7,6 +7,11 @@ nnoremap <leader>ws <C-w>s
 nnoremap <leader>wv <C-w>v
 nnoremap <leader>wq <C-w>q
 
+" change cursor
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+set ttimeoutlen=0
 
 " vim plug
 call plug#begin()
