@@ -8,10 +8,14 @@ nnoremap <leader>wv <C-w>v
 nnoremap <leader>wq <C-w>q
 
 " change cursor
+" for vim
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-set ttimeoutlen=0
+" for tmux
+let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 
 " vim plug
 call plug#begin()
@@ -27,6 +31,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'junegunn/gv.vim'
+Plug 'airblade/vim-gitgutter'
 Plug 'brooth/far.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'majutsushi/tagbar'
@@ -41,6 +47,8 @@ Plug 'edkolev/tmuxline.vim'
 
 call plug#end()
 
+set updatetime=100
+set ttimeoutlen=0
 set encoding=utf8
 colorscheme gruvbox
 " 显示行号
