@@ -51,6 +51,7 @@ set updatetime=100
 set ttimeoutlen=0
 set encoding=utf8
 colorscheme gruvbox
+let g:airline_theme='gruvbox'
 " 显示行号
 set number
 " 语法检查
