@@ -6,6 +6,10 @@ nnoremap <leader>wl <C-w>l
 nnoremap <leader>ws <C-w>s
 nnoremap <leader>wv <C-w>v
 nnoremap <leader>wq <C-w>q
+noremap <leader>+ :resize +5<CR>
+noremap <leader>- :resize -5<CR>
+noremap <leader>< :vertical:resize -5<CR>
+noremap <leader>> :vertical:resize +5<CR>
 
 " change cursor
 " for vim
