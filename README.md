@@ -36,15 +36,15 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 :CocConfig
 {
     "languageserver": {
-        "golang": {
-              "command": "gopls",
-                    "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
-                          "filetypes": ["go"]
-                              
-        }
-          
+    "golang": {
+      "command": "/Users/dennis/go/bin/gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
     }
-    
+  }
 }
 ```
 # chrome插件
