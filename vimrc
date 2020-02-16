@@ -47,7 +47,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'edkolev/tmuxline.vim'
-
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
