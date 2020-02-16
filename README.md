@@ -32,6 +32,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # install zplug, plugin manager for zsh, https://github.com/zplug/zplug
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
+# coc.nvim
+:CocConfig
+{
+    "languageserver": {
+        "golang": {
+              "command": "gopls",
+                    "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+                          "filetypes": ["go"]
+                              
+        }
+          
+    }
+    
+}
 ```
 # chrome插件
 Momentum,Octotree,uBlock Plus Adblocker
