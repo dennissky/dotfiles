@@ -50,7 +50,7 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 # chrome插件
 Momentum,Octotree,uBlock Plus Adblocker
 Vimium,OneTab,Bookmark Sidebar,Extension Manager
-下载+
+下载+,FeHelper,GitZip,SourceGraph
 
 # 心情软件
 pap.er 
