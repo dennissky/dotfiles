@@ -7,6 +7,7 @@
 # brew cask install
 brew cask install iterm2 \
   alfread \
+  hammerspoon
 
 # brew install
 brew install go \
@@ -32,6 +33,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # install zplug, plugin manager for zsh, https://github.com/zplug/zplug
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
+# install tmux plugin manager https://github.com/tmux-plugins/tpm
+
 # coc.nvim
 :CocConfig
 {
@@ -52,8 +55,6 @@ Momentum,Octotree,uBlock Plus Adblocker
 Vimium,OneTab,Bookmark Sidebar,Extension Manager
 下载+,FeHelper,GitZip,SourceGraph
 
-# 心情软件
-pap.er 
+# 其他软件
+pap.er, karabiner,the unarchiver,dash,alfread,postman
 
-# 改建
-karabiner
