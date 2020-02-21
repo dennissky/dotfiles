@@ -17,7 +17,9 @@ nodejs \
 zplug \
 autojump \
 tree \
-wget
+wget \
+lua \
+luarocks
 
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags
