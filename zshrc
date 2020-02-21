@@ -119,6 +119,9 @@ zplug load
 export GO111MODULE=auto
 # 配置 GOPROXY 环境变量
 export GOPROXY=https://goproxy.io
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export HOMEBREW_NO_AUTO_UPDATE=true
 export ZPLUG_HOME=/usr/local/opt/zplug
