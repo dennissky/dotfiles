@@ -7,7 +7,8 @@
 # brew cask install
 brew cask install iterm2 \
   alfread \
-  hammerspoon
+  hammerspoon \
+  keycastr
 
 # brew install
 brew install go \
