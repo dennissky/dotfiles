@@ -40,7 +40,7 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 {
     "languageserver": {
     "golang": {
-      "command": "/Users/dennis/go/bin/gopls",
+      "command": "gopls",
       "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
       "filetypes": ["go"],
       "initializationOptions": {
