@@ -59,5 +59,5 @@ Vimium,OneTab,Bookmark Sidebar,Extension Manager
 下载+,FeHelper,GitZip,SourceGraph
 
 # 其他软件
-pap.er, karabiner,the unarchiver,dash,alfread,postman
+pap.er, karabiner,the unarchiver,dash,postman
 
