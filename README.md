@@ -17,7 +17,8 @@ autojump \
 tree \
 wget \
 lua \
-luarocks
+luarocks \
+mitmproxy
 
 brew cask install iterm2 \
   alfread \
