@@ -1,16 +1,13 @@
-#  mac开发环境配置 
-# mac开发常用软件
-```
-# install Homebrew https://brew.sh/
+#  开发环境配置 
+
+# homebrew
+
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# brew cask install
-brew cask install iterm2 \
-  alfread \
-  hammerspoon \
-  keycastr
+```
 
-# brew install
+```sh
 brew install go \
 vim \
 python \
@@ -22,21 +19,33 @@ wget \
 lua \
 luarocks
 
+brew cask install iterm2 \
+  alfread \
+  hammerspoon \
+  keycastr
+
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags
+```
 
-# nerd font
+# font
+
+```shell
+nerd font
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+```
 
-# install oh-my-zsh  https://github.com/robbyrussell/oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# now you can copy your own .zshrc file
+# tpm,zplug
 
+```
+https://github.com/tmux-plugins/tpm
 
-# install zplug, plugin manager for zsh, https://github.com/zplug/zplug
-curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+https://github.com/zplug/zplug
+```
 
-# install tmux plugin manager https://github.com/tmux-plugins/tpm
+# coc
+
+```json
 
 # coc.nvim
 :CocConfig
@@ -53,11 +62,29 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
   }
 }
 ```
+
+
 # chrome插件
-Momentum,Octotree,uBlock Plus Adblocker
-Vimium,OneTab,Bookmark Sidebar,Extension Manager
-下载+,FeHelper,GitZip,SourceGraph
+* Momentum
+* Octotree
+* uBlock Plus Adblocker
+* Vimium
+* OneTab
+* Bookmark Sidebar
+* Extension Manager
+* 下载+
+* FeHelper
+* GitZip
+* SourceGraph
 
 # 其他软件
-pap.er, karabiner,the unarchiver,dash,postman
+* pap.er
+
+* karabiner
+
+* the unarchiver
+* dash
+* postman
+* pdf guru
+* parrels desktop
 
