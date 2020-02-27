@@ -33,6 +33,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/gv.vim'
@@ -49,7 +50,8 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'edkolev/tmuxline.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-
+Plug 'mbbill/undotree'
+Plug 'farmergreg/vim-lastplace'
 call plug#end()
 
 set updatetime=100
@@ -74,6 +76,13 @@ set hlsearch
 " 高亮当前行
 set cursorline
 filetype on
+" you must create ~/.vim/undo first
+set undofile
+set undodir=~/.vim/undo
+set undolevels=1000
+
+
+
 " nertree
 nmap <leader>f :NERDTreeToggle<cr>
 nmap <leader>v :NERDTreeFind<cr>
@@ -90,6 +99,9 @@ let g:ctrlp_map = '<leader>p'
 nmap ss <Plug>(easymotion-s2)
 " tagbar
 nnoremap <leader>t :TagbarToggle<CR>
+" vim-repeat
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+
 " vim-go
 set autowrite 
 let g:go_highlight_array_whitespace_error = 0
