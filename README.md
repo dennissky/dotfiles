@@ -80,12 +80,13 @@ https://github.com/zplug/zplug
 
 # 其他软件
 * pap.er
-
 * karabiner
-
 * the unarchiver
 * dash
 * postman
 * pdf guru
 * parrels desktop
-
+* microsoft remote desktop
+* medis
+* bywave
+* chrome

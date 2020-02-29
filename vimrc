@@ -70,6 +70,8 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set backspace=2
+set nobackup
+set noswapfile
 
 " 高亮搜索
 set hlsearch
