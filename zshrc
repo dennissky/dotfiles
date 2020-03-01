@@ -71,7 +71,7 @@ ZSH_THEME="robbyrussell"
 #Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,6 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug 'zsh-users/zsh-completions', defer:2
+zplug 'zsh-users/zsh-history-substring-search'
+zplug "plugins/vi-mode", from:oh-my-zsh
+zplug 'plugins/git', from:oh-my-zsh, if:'which git'
 
 [ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
@@ -127,5 +131,6 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 export ZPLUG_HOME=/usr/local/opt/zplug
 alias python=/usr/local/bin/python3
 alias c=/usr/bin/clear
+eval $(thefuck --alias)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

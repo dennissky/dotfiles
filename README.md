@@ -18,7 +18,8 @@ tree \
 wget \
 lua \
 luarocks \
-mitmproxy
+mitmproxy \
+thefuck
 
 brew cask install iterm2 \
   alfread \
