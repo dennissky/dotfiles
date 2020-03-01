@@ -52,6 +52,8 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'mbbill/undotree'
 Plug 'farmergreg/vim-lastplace'
+Plug 'terryma/vim-multiple-cursors'
+
 call plug#end()
 
 set updatetime=100
@@ -103,7 +105,13 @@ nmap ss <Plug>(easymotion-s2)
 nnoremap <leader>t :TagbarToggle<CR>
 " vim-repeat
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
-
+" vim-multiple-cursor
+let g:multi_cursor_use_default_mapping=0
+" Default mapping
+let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
 " vim-go
 set autowrite 
 let g:go_highlight_array_whitespace_error = 0
