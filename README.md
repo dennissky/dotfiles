@@ -11,7 +11,7 @@
 brew install go \
 vim \
 python \
-nodejs \
+node \
 zplug \
 autojump \
 tree \
@@ -19,7 +19,9 @@ wget \
 lua \
 luarocks \
 mitmproxy \
-thefuck
+thefuck \
+maven \
+tmux
 
 brew cask install iterm2 \
   alfread \
