@@ -21,6 +21,7 @@ luarocks \
 mitmproxy \
 thefuck \
 maven \
+tomcat \
 tmux
 
 brew cask install iterm2 \
