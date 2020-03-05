@@ -94,3 +94,4 @@ https://github.com/zplug/zplug
 * medis
 * bywave
 * chrome
+* MathJax Plugin for Github

@@ -7,7 +7,6 @@ nnoremap <leader>ws <C-w>s
 nnoremap <leader>wv <C-w>v
 nnoremap <leader>wq <C-w>q
 
-set hlsearch
 
 " idea action
 nnoremap <Leader>v :action ActivateProjectToolWindow<CR>
