@@ -22,7 +22,8 @@ mitmproxy \
 thefuck \
 maven \
 tomcat \
-tmux
+tmux \
+gotop
 
 brew cask install iterm2 \
   alfread \
