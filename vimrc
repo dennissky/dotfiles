@@ -53,7 +53,7 @@ Plug 'honza/vim-snippets'
 Plug 'mbbill/undotree'
 Plug 'farmergreg/vim-lastplace'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install()  }  }
 Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
@@ -137,5 +137,5 @@ let g:go_auto_type_info = 1
 let g:go_fmt_command = "goimports"
 let g:go_def_reuse_buffer = 1
 let g:go_echo_go_info = 0
-" vim-instant-markdown
-let g:instant_markdown_mathjax = 1
+" markdown-preview
+nmap <leader>mp <Plug>MarkdownPreview
