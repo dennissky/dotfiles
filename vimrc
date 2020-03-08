@@ -10,6 +10,8 @@ noremap <leader>+ :resize +5<CR>
 noremap <leader>- :resize -5<CR>
 noremap <leader>< :vertical:resize -5<CR>
 noremap <leader>> :vertical:resize +5<CR>
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> [n :bnext<CR>
 
 " change cursor
 " for vim
