@@ -23,7 +23,8 @@ thefuck \
 maven \
 tomcat \
 tmux \
-gotop
+gotop \
+mycli
 
 brew cask install iterm2 \
   alfread \
