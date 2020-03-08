@@ -155,7 +155,8 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load 
-export ALL_PROXY=socks5://127.0.0.1:1081
+# brew cask 代理设置 安装软件时打开
+#export ALL_PROXY=socks5://127.0.0.1:1081
 export HOMEBREW_NO_AUTO_UPDATE=true
 # go proxy
 # 启用 Go Modules 功能
