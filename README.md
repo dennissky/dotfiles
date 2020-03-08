@@ -104,4 +104,4 @@ https://github.com/zplug/zplug
 * medis
 * bywave
 * chrome
-
+* OmniPlan
