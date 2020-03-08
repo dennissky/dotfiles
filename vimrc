@@ -57,7 +57,6 @@ Plug 'farmergreg/vim-lastplace'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install()  }  }
 Plug 'arcticicestudio/nord-vim'
-Plug 'ap/vim-buftabline'
 call plug#end()
 
 set updatetime=100
@@ -141,6 +140,6 @@ let g:go_def_reuse_buffer = 1
 let g:go_echo_go_info = 0
 " markdown-preview
 nmap <leader>mp <Plug>MarkdownPreview
-" buftabline
-let g:buftabline_numbers=1
-let g:buftabline_indicators=1
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
