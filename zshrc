@@ -155,6 +155,8 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load 
+export ALL_PROXY=socks5://127.0.0.1:1081
+export HOMEBREW_NO_AUTO_UPDATE=true
 # go proxy
 # 启用 Go Modules 功能
 export GO111MODULE=auto
@@ -163,8 +165,6 @@ export GOPROXY=https://goproxy.io
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
-export HOMEBREW_NO_AUTO_UPDATE=true
 export ZPLUG_HOME=/usr/local/opt/zplug
 alias python=/usr/local/bin/python3
 alias c=/usr/bin/clear

@@ -26,13 +26,18 @@ tmux \
 gotop \
 mycli
 
-brew cask install iterm2 \
-  alfread \
-  hammerspoon \
-  keycastr
 
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags
+```
+
+```sh
+brew cask install iterm2 \
+alfread \
+hammerspoon \
+keycastr \
+kap
+
 ```
 
 # font
@@ -83,6 +88,9 @@ https://github.com/zplug/zplug
 * FeHelper
 * GitZip
 * SourceGraph
+* MathJax Plugin for Github
+* 书签侧边栏
+* Dark Reader
 
 # 其他软件
 * pap.er
@@ -96,4 +104,4 @@ https://github.com/zplug/zplug
 * medis
 * bywave
 * chrome
-* MathJax Plugin for Github
+
