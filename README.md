@@ -91,12 +91,12 @@ https://github.com/zplug/zplug
 * MathJax Plugin for Github
 * 书签侧边栏
 * Dark Reader
+* DevDocs
 
 # 其他软件
 * pap.er
 * karabiner
 * the unarchiver
-* dash
 * postman
 * pdf guru
 * parrels desktop
