@@ -169,6 +169,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export ZPLUG_HOME=/usr/local/opt/zplug
 alias python=/usr/local/bin/python3
 alias c=/usr/bin/clear
+alias ra=/usr/local/bin/ranger
 eval $(thefuck --alias)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
