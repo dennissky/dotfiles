@@ -9,7 +9,7 @@ nnoremap <leader>wq <C-w>q
 
 
 " idea action
-nnoremap <Leader>v :action ActivateProjectToolWindow<CR>
+nnoremap <Leader>f :action ActivateProjectToolWindow<CR>
 nnoremap <Leader>mv :action ActivateMavenToolWindow<CR>
 
 nnoremap <Leader>gd :action GotoDeclaration<CR>

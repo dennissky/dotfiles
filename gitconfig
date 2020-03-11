@@ -6,8 +6,8 @@
 	excludesfile = /Users/dennis/.gitignore
 [http]
 	sslVerify = false
-[http "https://github.com"]
-	proxy = socks5://127.0.0.1:1081
+#[http "https://github.com"]
+#	proxy = socks5://127.0.0.1:1081
 [merge]
     tool = vimdiff
 [mergetool]
