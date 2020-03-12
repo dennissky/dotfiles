@@ -25,7 +25,8 @@ tomcat \
 tmux \
 gotop \
 mycli \
-ranger
+ranger \
+tldr
 
 
 brew tap universal-ctags/universal-ctags
