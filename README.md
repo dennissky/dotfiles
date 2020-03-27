@@ -94,6 +94,7 @@ https://github.com/zplug/zplug
 * 书签侧边栏
 * Dark Reader
 * DevDocs
+* ElasticSearch Head
 
 # 其他软件
 * pap.er

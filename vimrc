@@ -25,7 +25,7 @@ let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 
 " vim plug
 call plug#begin()
-" Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -56,13 +56,12 @@ Plug 'mbbill/undotree'
 Plug 'farmergreg/vim-lastplace'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install()  }  }
-Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 set updatetime=100
 set ttimeoutlen=0
 set encoding=utf8
-colorscheme nord
+colorscheme gruvbox 
 " 显示行号
 set number
 " 语法检查
