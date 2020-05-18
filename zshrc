@@ -142,7 +142,7 @@ zplug 'zsh-users/zsh-history-substring-search'
 zplug "plugins/vi-mode", from:oh-my-zsh
 zplug 'plugins/git', from:oh-my-zsh, if:'which git'
 zplug 'romkatv/powerlevel10k', as:theme, depth:1
-
+zplug "plugins/kubectl",   from:oh-my-zsh
 
 [ -f $(brew --prefix)/etc/profile.d/autojump.sh ] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
