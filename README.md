@@ -26,7 +26,8 @@ tmux \
 gotop \
 mycli \
 ranger \
-tldr
+tldr \
+iperf
 
 
 brew tap universal-ctags/universal-ctags
