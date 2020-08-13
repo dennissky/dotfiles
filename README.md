@@ -30,6 +30,7 @@ tldr \
 iperf
 
 
+
 brew tap universal-ctags/universal-ctags
 brew install --HEAD universal-ctags
 ```
@@ -39,7 +40,8 @@ brew cask install iterm2 \
 alfread \
 hammerspoon \
 keycastr \
-kap
+kap \
+wireshark
 
 ```
 
