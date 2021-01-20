@@ -155,6 +155,16 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load 
+proxy () {
+    export HTTP_PROXY=http://127.0.0.1:8001
+    export HTTPS_PROXY=http://127.0.0.1:8001
+    export ALL_PROXY=socks5://127.0.0.1:1081
+}
+noproxy () {
+    unset HTTP_PROXY
+    unset HTTPS_PROXY
+    echo "HTTP Proxy off"
+}
 # brew cask 代理设置 安装软件时打开
 #export HTTP_PROXY=http://127.0.0.1:8001
 #export HTTPS_PROXY=http://127.0.0.1:8001
