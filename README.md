@@ -38,7 +38,6 @@ brew install --HEAD universal-ctags
 ```sh
 brew cask install iterm2 \
 alfread \
-hammerspoon \
 keycastr \
 kap \
 wireshark
@@ -113,3 +112,5 @@ https://github.com/zplug/zplug
 * OmniPlan
 * draw.io
 * Google Drive
+* CheatSheet
+* Paralles Client
