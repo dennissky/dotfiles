@@ -25,9 +25,6 @@ tomcat \
 tmux \
 gotop \
 mycli \
-ranger \
-tldr \
-iperf
 
 
 
@@ -40,7 +37,6 @@ brew cask install iterm2 \
 alfread \
 keycastr \
 kap \
-wireshark
 
 ```
 
@@ -80,23 +76,6 @@ https://github.com/zplug/zplug
 ```
 
 
-# chrome插件
-* Momentum
-* Octotree
-* uBlock Plus Adblocker
-* Vimium
-* OneTab
-* Bookmark Sidebar
-* Extension Manager
-* 下载+
-* FeHelper
-* GitZip
-* SourceGraph
-* MathJax Plugin for Github
-* 书签侧边栏
-* Dark Reader
-* DevDocs
-* ElasticSearch Head
 
 # 其他软件
 * pap.er
@@ -114,3 +93,4 @@ https://github.com/zplug/zplug
 * Google Drive
 * CheatSheet
 * Paralles Client
+* wireshark
