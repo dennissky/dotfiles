@@ -90,7 +90,6 @@ https://github.com/zplug/zplug
 * chrome
 * OmniPlan
 * draw.io
-* Google Drive
 * CheatSheet
 * Paralles Client
 * wireshark
