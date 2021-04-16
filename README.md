@@ -93,3 +93,7 @@ https://github.com/zplug/zplug
 * CheatSheet
 * Paralles Client
 * wireshark
+* iStat Menus
+* SwitchHosts
+* OpenVPN Connect
+

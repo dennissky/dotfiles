@@ -156,8 +156,8 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load 
 proxy () {
-    export HTTP_PROXY=http://127.0.0.1:8001
-    export HTTPS_PROXY=http://127.0.0.1:8001
+    export HTTP_PROXY=http://127.0.0.1:10080
+    export HTTPS_PROXY=http://127.0.0.1:10080
 }
 noproxy () {
     unset HTTP_PROXY
