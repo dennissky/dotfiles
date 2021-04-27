@@ -184,6 +184,5 @@ alias python=/usr/local/bin/python3
 alias c=/usr/bin/clear
 alias ra=/usr/local/bin/ranger
 alias k="/usr/local/bin/kubectl"
-eval $(thefuck --alias)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

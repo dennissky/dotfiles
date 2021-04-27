@@ -19,7 +19,6 @@ wget \
 lua \
 luarocks \
 mitmproxy \
-thefuck \
 maven \
 tomcat \
 tmux \
