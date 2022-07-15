@@ -37,6 +37,7 @@ iterm2
 CheatSheet
 dbeaver-community
 hiddenbar
+alfred
 ```
 
 # font
