@@ -36,6 +36,7 @@ brew install --cask stats \
 keycastr
 iterm2
 CheatSheet
+dbeaver-community
 ```
 
 # font
