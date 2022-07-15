@@ -13,7 +13,6 @@ vim \
 python \
 node \
 zplug \
-autojump \
 tree \
 wget \
 lua \
@@ -37,6 +36,7 @@ keycastr
 iterm2
 CheatSheet
 dbeaver-community
+hiddenbar
 ```
 
 # font
