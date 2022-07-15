@@ -57,7 +57,7 @@ https://github.com/zplug/zplug
 * pdf guru
 * parrels desktop
 * microsoft remote desktop
-* medis
+* redisinsight
 * bywave
 * chrome
 * OmniPlan
