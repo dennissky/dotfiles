@@ -10,24 +10,15 @@
 ```sh
 brew install go \
 vim \
-python \
-node \
 zplug \
 tree \
 wget \
 lua \
 luarocks \
-mitmproxy \
 maven \
-tomcat \
 tmux \
 gotop \
 mycli \
-
-
-
-brew tap universal-ctags/universal-ctags
-brew install --HEAD universal-ctags
 ```
 
 ```sh
@@ -55,25 +46,6 @@ https://github.com/tmux-plugins/tpm
 https://github.com/zplug/zplug
 ```
 
-# coc
-
-```json
-
-# coc.nvim
-:CocConfig
-{
-    "languageserver": {
-    "golang": {
-      "command": "gopls",
-      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
-      "filetypes": ["go"],
-      "initializationOptions": {
-        "usePlaceholders": true
-      }
-    }
-  }
-}
-```
 
 
 
