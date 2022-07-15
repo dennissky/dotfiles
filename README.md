@@ -32,11 +32,10 @@ brew install --HEAD universal-ctags
 ```
 
 ```sh
-brew cask install iterm2 \
-alfread \
-keycastr \
-kap \
-
+brew install --cask stats \
+keycastr
+iterm2
+CheatSheet
 ```
 
 # font
@@ -89,10 +88,10 @@ https://github.com/zplug/zplug
 * chrome
 * OmniPlan
 * draw.io
-* CheatSheet
 * Paralles Client
-* wireshark
-* iStat Menus
+* proxyman
 * SwitchHosts
 * OpenVPN Connect
+* magnet
+* tabby
 
