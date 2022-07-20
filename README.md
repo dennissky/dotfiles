@@ -21,7 +21,7 @@ zsh-syntax-highlighting \
 zsh-vi-mode
 thefuck
 fzf
-
+bat
 ```
 
 ```sh
