@@ -32,6 +32,7 @@ CheatSheet
 dbeaver-community
 hiddenbar
 alfred
+devdocs
 ```
 
 # font
