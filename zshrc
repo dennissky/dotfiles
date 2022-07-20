@@ -40,7 +40,6 @@ noproxy () {
 
 export HOMEBREW_NO_AUTO_UPDATE=true
 export ZPLUG_HOME=/usr/local/opt/zplug
-alias c=/usr/bin/clear
-alias ra=/usr/local/bin/ranger
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
