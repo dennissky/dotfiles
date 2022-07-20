@@ -17,8 +17,6 @@ lua \
 luarocks \
 maven \
 tmux \
-gotop \
-mycli \
 ```
 
 ```sh
