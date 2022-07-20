@@ -17,6 +17,11 @@ lua \
 luarocks \
 maven \
 tmux \
+zsh-syntax-highlighting \
+zsh-vi-mode
+thefuck
+fzf
+
 ```
 
 ```sh
