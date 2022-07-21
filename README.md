@@ -22,7 +22,7 @@ zsh-vi-mode
 thefuck
 fzf
 bat
-autojump
+z
 ```
 
 ```sh
