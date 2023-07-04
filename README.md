@@ -13,8 +13,6 @@ vim \
 zplug \
 tree \
 wget \
-lua \
-luarocks \
 maven \
 tmux \
 zsh-syntax-highlighting \
